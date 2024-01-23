@@ -29,7 +29,7 @@ class MainActivity : ComponentActivity() {
                 ) {
                     Column{
                         Greeting("INF2007")
-                        From("Michael")
+                        From("Elon Musk")
                         val currentDateTime = LocalDateTime.now()
                         val formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss")
                         val formattedDateTime = currentDateTime.format(formatter)
