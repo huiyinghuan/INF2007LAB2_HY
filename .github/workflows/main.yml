@@ -28,7 +28,7 @@ jobs:
       - name: Set Up JDK
         uses: actions/setup-java@v1
         with:
-          java-version: 11
+          java-version: 17
 
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
@@ -44,4 +44,3 @@ jobs:
         with:
           slack_webhook_url: "https://hooks.slack.com/services/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"
         if: always()
-
